@@ -10,3 +10,9 @@ How do we want to test this?
 2. `development` with mocks
 3. `testnet`
 
+
+
+### If running into issues
+
+#### ValueError: Unable to expand environment variable in host setting: 'https://rinkeby.infura.io/v3/$WEB3_INFURA_PROJECT_ID'
+Fix: in terminal, run `source .env`
